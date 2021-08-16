@@ -12,6 +12,4 @@ Go the the [README.](../README.md)
  - [05 - Type Annotations with Arrays](05-type-annotations-with-arrays.md)
  - [06 - Type Annotations with Tuples (And Type Aliases)](06-type-annotations-with-tuples.md)
  - [07 - Interfaces](07-interfaces.md)
-
-
-
+ - [08 - Classes](08-classes.md)
