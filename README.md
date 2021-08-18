@@ -47,4 +47,3 @@ TypeScript code is transformed into JavaScript code via the TypeScript compiler 
 
  - [https://www.typescriptlang.org/](https://www.typescriptlang.org/)
 
- - [TypeScript Deep Dive](https://basarat.gitbook.io/typescript/)
