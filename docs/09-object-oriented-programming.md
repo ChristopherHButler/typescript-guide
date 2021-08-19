@@ -49,30 +49,82 @@ The idea of inheritance implements the IS-A relationship.
 
 Simply put, polymorphism gives a way to use a class exactly like its parent so there’s no confusion with mixing types. But each child class keeps its own methods as they are.
 
-This typically happens by defining a (parent) interface to be reused. It outlines a bunch of common methods. Then, each child class implements its own version of these methods.
+This typically happens by defining a (parent) interface to be reused (abstract classes). It outlines a bunch of common methods. Then, each child class implements its own version of these methods.
 
 Objects can take on more than one form depending on the context. The program will determine which meaning or usage is necessary for each execution of that object, cutting down the need to duplicate code.
 
 
 ### Object Oriented Programming Concepts
 
-> **NOTE** check notes from Specialization
-
 #### Composition
 
->**TODO**
+Composition is a type of relationship between classes where one class contains another instead of inheriting from another.
+
+Composition should be favored above inheritance because it’s more flexible and allows us to design loosely coupled applications.
+
+Where inheritance can be thought of as an is-a relationship, composition can be thought of as a has-a relationship.
+
+
 
 #### Composition vs Inheritance
 
 
 ### SOLID Principles
 
-#### Single Responsibility Principle 
+#### Single Responsibility Principle
 
-...
+ - Every object should have a single responsibility and that responsibility should be entirely encapsulated by the class. 
+ - There should never be more than one reason for a class to change. 
 
-#### DRY
+> Key Concepts:
+**Cohesion** – how strongly-related and focused are the various responsibilities of a module
+**Coupling** – The degree to which each program module relies on each one of the other modules
+ - We want to strive for low coupling and high cohesion. 
+ - When a class has more responsibilities, there is a higher likelihood for a reason to change. 
+ - Multiple small interfaces (that follow the Interface segregation principle (ISP)) can help to achieve SRP.
 
+#### The Open / Closed Principle
+
+Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification.
+> Key concepts: 
+**Open to Extension** – New behavior can be added in the future
+**Closed to Modification** – Changes to source or binary code are not required
+ - The key is to rely on abstractions (interfaces and abstract base classes)
+ - From your experience in the problem domain, if you know that a particular class is likely to change, you can apply OCP up front in your design.
+ - Otherwise, don’t apply OCP at first. If the module changes once, accept it. If it changes again, refactor to achieve OCP. 
+ - The way you do that is by finding an abstraction, creating an interface, and then extracting out the if then logic, or switch statement logic, into separate classes where each one represents a particular node in that decision tree.
+
+
+#### The Liskov Substitution Principle
+
+ - Subtypes must be substitutable for their base types.
+ - Child classes must not remove base class behavior or violate base class invariants
+ - In general, calling code must not know there are differences from a derived type and their base type.
+ - LSP suggest that IS-A should be replaced with IS-SUBSTITUTABLE-FOR
+ - Related Fundamentals: Polymorphism, Inheritance, ISP, OCP
+
+#### The Interface Segregation Principle
+
+ - Clients should not be forced to depend on methods that they do not use.
+ - Prefer small, cohesive interfaces to “fat” interfaces
+
+> Code smells include:
+ - Unimplemented interface methods
+ - When a client references a class but only uses a small portion of it
+
+> Refactoring to a better design:
+ - If you find yourself depending on a fat interface that you own and this is causing problems because of the dependencies involved, the best thing to do is create a smaller interface that has just what the client needs, have the fat interface implement this new interface. Then reference the new interface within your client code, ignoring the fat interface.
+ - Related: polymorphism, Inheritance, LSP, façade pattern.
+
+#### The Dependency Inversion Principle 
+
+ - High level modules should not depend on low level modules. Both should depend on abstractions.
+ - Abstractions should not depend on details. Details should depend on abstractions.
+
+
+#### The Don’t Repeat Yourself Principle (DRY)
+
+ - The DRY principle is stated as "Every piece of knowledge must have a single, unambiguous, authoritative representation within a system".
 
 
 ### References

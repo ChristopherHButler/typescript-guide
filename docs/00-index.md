@@ -30,22 +30,6 @@ Go the the [README.](../README.md)
 ### Part 4: Advanced Stuff... Generics...Decorators, etc
 
  - [11 - Narrowing (Type Guards)](11-type-guards.md)
+ - [12 - Enums](12-enums.md)
 
 ### Part X: React + TypeScript
-
-
-
-
-### TODO:
-
- - OOP not finished
-
-
-
-
-
-
-
-
-
-
