@@ -40,6 +40,7 @@ The child class reuses all fields and methods of the parent class (common part) 
 
 The idea of inheritance implements the IS-A relationship.
 
+Inheritance can be implemented through basic class inheritance or abstract classes.
 
 > Benefits of Inheritance
 
@@ -58,16 +59,30 @@ Objects can take on more than one form depending on the context. The program wil
 
 #### Composition
 
-Composition is a type of relationship between classes where one class contains another instead of inheriting from another.
+Composition is a type of relationship between classes where one class contains another (or has a reference to another) instead of inheriting from another.
+
+Composition can be implemented through the use of interfaces.
+
+
+#### Inheritance vs Composition
+
+**Inheritance**
+ - Can be implemented through basic class inheritance or abstract classes.
+ - Inheritance can be thought of as an is-a relationship.
+
+**Composition**
+ - Can be implemented through the use of interfaces.
+ - Composition can be thought of as a has-a relationship.
+
+|![](./screenshots/15-inheritance-vs-composition.png)
+|--
 
 Composition should be favored above inheritance because it’s more flexible and allows us to design loosely coupled applications.
 
-Where inheritance can be thought of as an is-a relationship, composition can be thought of as a has-a relationship.
+i.e. interfaces (has-a) over inheritance (is-a)
 
 
-
-#### Composition vs Inheritance
-
+<br />
 
 ### SOLID Principles
 
