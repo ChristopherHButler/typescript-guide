@@ -27,9 +27,14 @@ Go the the [README.](../README.md)
 
  - [10 - Design Patterns with TypeScript](10-design-patterns.md)
 
-### Part 4: Advanced Stuff... Generics...Decorators, etc
+### Part 4: Misc | Intermediate (?)
 
  - [11 - Narrowing (Type Guards)](11-type-guards.md)
  - [12 - Enums](12-enums.md)
+ - [13 - Type Assertions](13-type-assertions.md)
+ 
+
+
+### Part 5: Advanced Stuff... Generics...Decorators, etc
 
 ### Part X: React + TypeScript
