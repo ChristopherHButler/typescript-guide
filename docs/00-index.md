@@ -37,4 +37,6 @@ Go the the [README.](../README.md)
 
 ### Part 5: Advanced Stuff... Generics...Decorators, etc
 
+ - [14 - Generics](14-generics.md)
+
 ### Part X: React + TypeScript
