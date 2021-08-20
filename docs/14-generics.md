@@ -105,24 +105,104 @@ let myIdentity: GenericIdentityFn<number> = identity;
 
 To reiterate, the easiest way to think of generic classes is to think of them like function arguments, but for classes.
 
+In the following example, we have nearly identical implementations. The only difference is the `type` of the collection. 
+In the first one we have a number and the second we have a string, so ideally, we would be able to condense both these classes down to one. One way to do that is to use generics.
+
 A generic class has a similar shape to a generic interface. Generic classes have a generic type parameter list in angle brackets (<>) following the name of the class.
 
 ```ts
-class HoldAnything<TypeOfData> {
-  data: TypeOfData;
+// class ArrayOfNumbers {
+//   constructor(public collection: number[]) {}
+
+//   get(index: number): number {
+//     return this.collection[index];
+//   }
+// }
+
+// class ArrayOfStrings {
+//   constructor(public collection: string[]) {}
+
+//   get(index: number): string {
+//     return this.collection[index];
+//   }
+// }
+
+// Generic implementation
+class ArrayOfAnything<T> {
+  constructor(public collection: T[]) {}
+
+  get(index: number): T {
+    return this.collection[index];
+  }
 }
 
-// here we are telling the class that the TypeOfData is a number
-const holdNumber = new HoldAnything<number>();
-holdNumber.data = 123;
-
-// now we are telling the class that the TypeOfData is a string
-const holdString = new HoldAnything<string>();
-holdString = 'hello';
+// using this class:
+const stringArray = new ArrayOfAnything<string>(['a', 'b', 'c']);
 ```
 
+#### Type Inference with Generics
 
+We do not have to specify the type of the class if we don't want to. TypeScript has type inference for classes as well and will know based on the collection we pass in what the type should be.
 
+#### Generic Constraints
+
+Consider the following example of a Car class and House class. 
+
+```ts
+class Car {
+  print() {
+    console.log('I am a car');
+  }
+}
+
+class House {
+  print() {
+    console.log('I am a house');
+  }
+}
+```
+
+Let's define a generic function that would loop through an array of either type of object and call the print method on it
+
+```ts
+function printHousesOrCars<T>(arr: T[]): void {
+  for (let i = 0; i < arr.length; i++) {
+    arr[i].print();
+  }
+}
+```
+
+This will give us an error: Property 'print' does not exist on type 'T'.
+
+This is TypeScript saying: hey you're going to dynamically specify type T, so the element `arr[i]` will be of type T, and right now there is no guarantee that this type of T is going to have a print method available.
+
+So if we tried to use this function with an array of numbers, this would lead to an error because there is no print method on a number.
+
+```ts
+printHousesOrCars([1, 2, 3, 4]); // error
+```
+
+So what we need to do here is add on a constraint to type T: A Constraint is going to tell TypeScript that we promise that there will be a print method available. Put another way, if we ever try to call printHousesOrCars, we're always going to feed in a type that will have a print method available.
+
+So here's how we can do that: 
+
+1. define an interface
+
+```ts
+interface Printable {
+  print(): void;
+}
+```
+
+2. specify that type `T` extends printable:
+
+```ts
+function printHousesOrCars<T extends Printable>(arr: T[]): void {
+  for (let i = 0; i < arr.length; i++) {
+    arr[i].print();
+  }
+}
+```
 
 #### References
 
