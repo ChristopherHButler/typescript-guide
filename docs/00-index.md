@@ -32,10 +32,8 @@ Go the the [README.](../README.md)
  - [11 - Narrowing (Type Guards)](11-type-guards.md)
  - [12 - Enums](12-enums.md)
  - [13 - Type Assertions](13-type-assertions.md)
- 
 
-
-### Part 5: Advanced Stuff... Generics...Decorators, etc
+### Part 5: Advanced
 
  - [14 - Generics](14-generics.md)
 
