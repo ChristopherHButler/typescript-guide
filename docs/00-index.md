@@ -36,5 +36,10 @@ Go the the [README.](../README.md)
 ### Part 5: Advanced
 
  - [14 - Generics](14-generics.md)
+ - [15 - Decorators](15-decorators.md)
 
-### Part X: React + TypeScript
+### Part 6: Integrating TypeScript with JS Libraries
+
+ - [16 - TypeScript + JS Libraries](16-ts-and-js-libraries.md)
+ - [17 - Express + TypeScript](17-ts-and-express.md)
+ - [18 - React + TypeScript](18-ts-and-react.md)
