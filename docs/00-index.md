@@ -37,9 +37,10 @@ Go the the [README.](../README.md)
 
  - [14 - Generics](14-generics.md)
  - [15 - Decorators](15-decorators.md)
+ - [16 - Metadata](16-metadata.md)
 
 ### Part 6: Integrating TypeScript with JS Libraries
 
- - [16 - TypeScript + JS Libraries](16-ts-and-js-libraries.md)
- - [17 - Express + TypeScript](17-ts-and-express.md)
- - [18 - React + TypeScript](18-ts-and-react.md)
+ - [17 - TypeScript + JS Libraries](17-ts-and-js-libraries.md)
+ - [18 - Express + TypeScript](18-ts-and-express.md)
+ - [19 - React + TypeScript](19-ts-and-react.md)
