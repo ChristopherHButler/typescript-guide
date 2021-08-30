@@ -26,6 +26,13 @@ Types provide a way to describe the shape of an object, providing better documen
  - Only active during development
  - Doesn't provide any performance optimization
 
+#### TypeScript vs JavaScript
+
+JavaScript uses 'dynamic types' (resolved at runtime), whereas TypeScript uses 'static types' (set during development).
+
+Put another way:
+
+JavaScript is a dynamic language and TypeScript is a static(ally typed) language (like C# or Java).
 
 #### How to use TypeScript
 
@@ -55,7 +62,7 @@ TypeScript code is transformed into JavaScript code via the TypeScript compiler 
 
 ### Part 2a: Classes and Interfaces
 
- - [07 - Interfaces](/docs/07-interfaces.md)
+ - [07 - Interfaces and Type Aliases](/docs/07-interfaces.md)
  - [08 - Classes](/docs/08-classes.md)
 
 ### Part 2b: Object Oriented Programming Principles
@@ -84,12 +91,16 @@ TypeScript code is transformed into JavaScript code via the TypeScript compiler 
  - [18 - Express + TypeScript](/docs/18-ts-and-express.md)
  - [19 - React + TypeScript](/docs/19-ts-and-react.md)
 
+### Appendix A: TypeScript Setup
+
+ - [20 - TypeScript Setup](/docs/20-ts-setup.md)
+
 
 ### Resources
 
  - [TypeScript: The Complete Developer's Guide](https://www.udemy.com/course/typescript-the-complete-developers-guide)
+ - [Understanding TypeScript](https://www.udemy.com/course/understanding-typescript)
 
  - [Understanding TypeScript](https://www.udemy.com/course/understanding-typescript)
 
  - [https://www.typescriptlang.org/](https://www.typescriptlang.org/)
-

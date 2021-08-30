@@ -20,7 +20,7 @@ Quick Links: [ReadMe](../README.md) | [Table of Contents](./docs/00-index.md)
 #### How Type Inference Works
 
 In TypeScript, there are several places where type inference is used to provide type information when there is no explicit type annotation. 
-Ref: [https://www.typescriptlang.org/docs/handbook/type-inference.html](https://www.typescriptlang.org/docs/handbook/type-inference.html)
+
 
 ```ts
 const color;   // variable declaration
@@ -120,6 +120,11 @@ let nothingMuch: null = null;
 let nothing: undefined = undefined;
 ```
 
+> **Unknown**
+```ts
+let userInput: unknown;
+```
+
 > **Built in Objects - Dates**
 ```ts
 let now: Date = new Date();
@@ -208,3 +213,6 @@ If you want to allow multiple different types for a variable / object.
 let courseTitle: string | number = 'React + TypeScript';
 ```
 
+### References
+
+ - [https://www.typescriptlang.org/docs/handbook/type-inference.html](https://www.typescriptlang.org/docs/handbook/type-inference.html)
