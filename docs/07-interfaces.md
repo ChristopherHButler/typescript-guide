@@ -135,6 +135,35 @@ let point3d: Point3d = { x: 1, y: 2, z: 3 };
 
 <br />
 
+#### Type Aliases
+
+Type aliases create a new name for a type. Type aliases are sometimes similar to interfaces, but can name primitives, unions, tuples, and any other types that you’d otherwise have to write by hand.
+
+```ts
+type User = { 
+  name: string;
+  age: number;
+};
+
+// usage
+function greet(user: User) {
+  console.log('Hi, my name is ' + user.name);
+}
+```
+
+Aliasing doesn’t actually create a new type - it creates a new name to refer to that type.
+
+Aliasing a primitive is not terribly useful, though it can be used as a form of documentation.
+
+```ts
+type Second = number;
+```
+
+
+
+
+
+
 #### Interface vs Type Alias
 
 Type aliases are sometimes similar to interfaces, but can name primitives, unions, tuples, and any other types that you’d otherwise have to write by hand.

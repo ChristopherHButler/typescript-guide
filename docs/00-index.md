@@ -16,7 +16,7 @@ Go the the [README.](../README.md)
 
 ### Part 2a: Classes and Interfaces
 
- - [07 - Interfaces](07-interfaces.md)
+ - [07 - Interfaces and Type Aliases](07-interfaces.md)
  - [08 - Classes](08-classes.md)
 
 ### Part 2b: Object Oriented Programming Principles
@@ -44,3 +44,7 @@ Go the the [README.](../README.md)
  - [17 - TypeScript + JS Libraries](17-ts-and-js-libraries.md)
  - [18 - Express + TypeScript](18-ts-and-express.md)
  - [19 - React + TypeScript](19-ts-and-react.md)
+
+### Appendix A: TypeScript Setup
+
+ - [20 - TypeScript Setup](20-ts-setup.md)

@@ -69,10 +69,36 @@ const logger = (message: string): void => {
   // can use void to return null or undefined
 };
 
+// never indicates the function will not just return nothing, it will never return
 const throwError = (message: string): never => {
   throw new Error(message);
 };
 ```
+
+<br />
+
+#### Functions as Types
+
+Given we have a variable that references a function, that variable also has a type:
+
+```ts
+function add(num1: number, num2: number): number {
+  return num1 + num2;
+}
+
+// using the 'Function' type
+const myAdd: Function = add;
+```
+
+We can improve upon this though using the arrow notation:
+
+```ts
+const myAdd: (a: number, b: number) => number = add;
+```
+
+Here we are saying `myAdd` is a function that accepts two parameters (a, which is a number and b which is also a number) and returns a number.
+
+<br />
 
 #### Destructuring and Annotations
 
@@ -93,4 +119,18 @@ const logWeather = ({ date, weather }: { date: Date, weather: string }): void =>
 };
 
 logWeather(todaysWeather);
+```
+
+#### Function Types and Callbacks
+
+```ts
+function addAndHandle(num1: number; num2: number; cb: (num: number) => void): void {
+  const result = num1 + num2;
+  cb(result);
+}
+
+// usage
+addAndHandle(10, 20, (res) => {
+  console.log(res);
+});
 ```
