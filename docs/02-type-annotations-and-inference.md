@@ -164,6 +164,22 @@ let point: { x: number; y: number; } = {
 };
 ```
 
+> **Object literal with unknown property names**
+
+Given a JavaScript object with unknown property names (but known property values) we can create a type or interface using the `[key: type]: type` syntax where the first type refers to the key type and the second to the value type.
+
+```ts
+type Props = {
+  [key: string]: string;
+};
+```
+
+```ts
+export interface RequestWithBody extends Request {
+  body: { [key: string]: string | undefined };
+}
+```
+
 <br /><br />
 
 ### Annotating Functions
