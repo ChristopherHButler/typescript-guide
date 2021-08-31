@@ -160,10 +160,6 @@ type Second = number;
 ```
 
 
-
-
-
-
 #### Interface vs Type Alias
 
 Type aliases are sometimes similar to interfaces, but can name primitives, unions, tuples, and any other types that you’d otherwise have to write by hand.

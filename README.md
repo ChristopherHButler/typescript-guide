@@ -93,14 +93,15 @@ TypeScript code is transformed into JavaScript code via the TypeScript compiler 
 
 ### Appendix A: TypeScript Setup
 
- - [20 - TypeScript Setup](/docs/20-ts-setup.md)
+ - [20 - TypeScript Setup and Configuration](/docs/20-ts-setup.md)
 
+### Appendix B: TypeScript and Webpack
+
+ - [21 - TypeScript and Webpack](/docs/21-ts-webpack.md)
 
 ### Resources
 
  - [TypeScript: The Complete Developer's Guide](https://www.udemy.com/course/typescript-the-complete-developers-guide)
- - [Understanding TypeScript](https://www.udemy.com/course/understanding-typescript)
-
  - [Understanding TypeScript](https://www.udemy.com/course/understanding-typescript)
 
  - [https://www.typescriptlang.org/](https://www.typescriptlang.org/)

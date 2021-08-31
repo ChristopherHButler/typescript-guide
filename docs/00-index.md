@@ -47,4 +47,8 @@ Go the the [README.](../README.md)
 
 ### Appendix A: TypeScript Setup
 
- - [20 - TypeScript Setup](20-ts-setup.md)
+ - [20 - TypeScript Setup and Configuration](20-ts-setup.md)
+
+### Appendix B: TypeScript and Webpack
+
+ - [21 - TypeScript and Webpack](21-ts-webpack.md)

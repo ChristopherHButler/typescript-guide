@@ -11,7 +11,7 @@ A type assertion is like a type cast in other languages, but it performs no spec
 
 Type assertions have two forms.
 
-#### `as` syntax
+#### Type Casting using the `as` syntax
 
 ```ts
 let someValue: unknown = "this is a string";
@@ -19,7 +19,7 @@ let someValue: unknown = "this is a string";
 let strLength: number = (someValue as string).length;
 ```
 
-#### `angle-bracket` syntax
+#### Type Casting using the `angle-bracket` syntax
 
 ```ts
 let someValue: unknown = "this is a string";
