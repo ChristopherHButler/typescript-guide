@@ -89,15 +89,26 @@ TypeScript code is transformed into JavaScript code via the TypeScript compiler 
 
  - [17 - TypeScript + JS Libraries](/docs/17-ts-and-js-libraries.md)
  - [18 - Express + TypeScript](/docs/18-ts-and-express.md)
+
+### Part 7: React + TypeScript
+
  - [19 - React + TypeScript](/docs/19-ts-and-react.md)
+ - [20 - React + TypeScript: Components](/docs/20-tsx-components.md)
+ - [21 - React + TypeScript: Props](/docs/21-tsx-props.md)
+ - [22 - React + TypeScript: State, Events and Lifecycle Methods](/docs/22-tsx-state-events-lifecycle-methods.md)
+ - [23 - React + TypeScript: Rendering Conditional Content and Lists](/docs/23-tsx-conditional-content-and-lists.md)
+ - [24 - React + TypeScript: Styling](/docs/24-tsx-styling.md)
+ - [25 - React + TypeScript: Fragments, Portals and Refs](/docs/25-tsx-fragments-portals-and-refs.md)
+ - [26 - React + TypeScript: Hooks](/docs/26-tsx-hooks.md)
 
 ### Appendix A: TypeScript Setup
 
- - [20 - TypeScript Setup and Configuration](/docs/20-ts-setup.md)
+ - [TypeScript Setup and Configuration](/docs/98-ts-setup.md)
 
 ### Appendix B: TypeScript and Webpack
 
- - [21 - TypeScript and Webpack](/docs/21-ts-webpack.md)
+ - [TypeScript and Webpack](/docs/99-ts-webpack.md)
+
 
 ### Resources
 

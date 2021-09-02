@@ -43,12 +43,22 @@ Go the the [README.](../README.md)
 
  - [17 - TypeScript + JS Libraries](17-ts-and-js-libraries.md)
  - [18 - Express + TypeScript](18-ts-and-express.md)
+
+### Part 7: React + TypeScript
+
  - [19 - React + TypeScript](19-ts-and-react.md)
+ - [20 - React + TypeScript: Components](20-tsx-components.md)
+ - [21 - React + TypeScript: Props](21-tsx-props.md)
+ - [22 - React + TypeScript: State, Events and Lifecycle Methods](22-tsx-state-events-lifecycle-methods.md)
+ - [23 - React + TypeScript: Rendering Conditional Content and Lists](23-tsx-conditional-content-and-lists.md)
+ - [24 - React + TypeScript: Styling](24-tsx-styling.md)
+ - [25 - React + TypeScript: Fragments, Portals and Refs](25-tsx-fragments-portals-and-refs.md)
+ - [26 - React + TypeScript: Hooks](26-tsx-hooks.md)
 
 ### Appendix A: TypeScript Setup
 
- - [20 - TypeScript Setup and Configuration](20-ts-setup.md)
+ - [TypeScript Setup and Configuration](98-ts-setup.md)
 
 ### Appendix B: TypeScript and Webpack
 
- - [21 - TypeScript and Webpack](21-ts-webpack.md)
+ - [TypeScript and Webpack](99-ts-webpack.md)
