@@ -11,6 +11,7 @@ Hooks are functions that let you “hook into” React state and lifecycle featu
 
 Hooks are a way to write reusable code, instead of more classic techniques like Inheritance.
 
+### React Hooks
 #### useState
 
 `useState` is a function that lets you use state in a functional component.
@@ -90,3 +91,6 @@ const intervalRef = useRef<number | null>(null);
 #### useImperativeHandle
 
 #### useDebugValue
+
+
+### Custom Hooks

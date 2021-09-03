@@ -53,53 +53,82 @@ TypeScript code is transformed into JavaScript code via the TypeScript compiler 
 
 ### Part 1: Type System and Type Annotations
 
- - [01 - What is a Type System](/docs/01-type-system.md)
- - [02 - Type Annotations and Type Inference](/docs/02-type-annotations-and-inference.md)
- - [03 - Type Annotations with Functions and Objects](/docs/03-type-annotations-with-functions.md)
- - [04 - Type Annotations with Objects](/docs/04-type-annotations-with-objects.md)
- - [05 - Type Annotations with Arrays](/docs/05-type-annotations-with-arrays.md)
- - [06 - Type Annotations with Tuples (And Type Aliases)](/docs/06-type-annotations-with-tuples.md)
+ - [What is a Type System](/docs/01-type-system.md)
+ - [Type Annotations and Type Inference](/docs/02-type-annotations-and-inference.md)
+ - [Type Annotations with Functions and Objects](/docs/03-type-annotations-with-functions.md)
+ - [Type Annotations with Objects](/docs/04-type-annotations-with-objects.md)
+ - [Type Annotations with Arrays](/docs/05-type-annotations-with-arrays.md)
+ - [Type Annotations with Tuples (And Type Aliases)](/docs/06-type-annotations-with-tuples.md)
 
 ### Part 2a: Classes and Interfaces
 
- - [07 - Interfaces and Type Aliases](/docs/07-interfaces.md)
- - [08 - Classes](/docs/08-classes.md)
+ - [Interfaces and Type Aliases](/docs/07-interfaces.md)
+ - [Classes](/docs/08-classes.md)
 
 ### Part 2b: Object Oriented Programming Principles
 
- - [09 - Object Oriented Programming Principles](/docs/09-object-oriented-programming.md)
+ - [Object Oriented Programming Principles](/docs/09-object-oriented-programming.md)
 
 ### Part 3: Design Patterns
 
- - [10 - Design Patterns with TypeScript](/docs/10-design-patterns.md)
+ - [Design Patterns with TypeScript](/docs/10-design-patterns.md)
 
-### Part 4: Misc | Intermediate (?)
+### Part 4: Intermediate | Misc
 
- - [11 - Narrowing (Type Guards)](/docs/11-type-guards.md)
- - [12 - Enums](/docs/12-enums.md)
- - [13 - Type Assertions](/docs/13-type-assertions.md)
+ - [Narrowing (Type Guards)](/docs/11-type-guards.md)
+ - [Enums](/docs/12-enums.md)
+ - [Type Assertions](/docs/13-type-assertions.md)
 
 ### Part 5: Advanced
 
- - [14 - Generics](/docs/14-generics.md)
- - [15 - Decorators](/docs/15-decorators.md)
- - [16 - Metadata](/docs/16-metadata.md)
+ - [Generics](/docs/14-generics.md)
+ - [Decorators](/docs/15-decorators.md)
+ - [Metadata](/docs/16-metadata.md)
 
-### Part 6: Integrating TypeScript with JS Libraries
+### Part 6A: React + TypeScript (Main Concepts)
 
- - [17 - TypeScript + JS Libraries](/docs/17-ts-and-js-libraries.md)
- - [18 - Express + TypeScript](/docs/18-ts-and-express.md)
+>**Note:** The react guide follows the format of the official react docs and summarizes key points. Where applicable, a guide to using typescript is included.
 
-### Part 7: React + TypeScript
+ - [React: JSX and Rendering](/docs/19-react-jsx-and-rendering.md)
+ - [React + TypeScript](/docs/20-ts-and-react.md)
+ - [React + TypeScript: Components](/docs/21-tsx-components.md)
+ - [React + TypeScript: Props](/docs/22-tsx-props.md)
+ - [React + TypeScript: State and Lifecycle](/docs/23-tsx-state-and-lifecycle.md)
+ - [React + TypeScript: Hooks](/docs/24-tsx-hooks.md)
+ - [React + TypeScript: Events](/docs/25-tsx-events.md)
+ - [React + TypeScript: Conditional Rendering and Lists](/docs/26-tsx-conditional-rendering-and-lists.md)
 
- - [19 - React + TypeScript](/docs/19-ts-and-react.md)
- - [20 - React + TypeScript: Components](/docs/20-tsx-components.md)
- - [21 - React + TypeScript: Props](/docs/21-tsx-props.md)
- - [22 - React + TypeScript: State, Events and Lifecycle Methods](/docs/22-tsx-state-events-lifecycle-methods.md)
- - [23 - React + TypeScript: Rendering Conditional Content and Lists](/docs/23-tsx-conditional-content-and-lists.md)
- - [24 - React + TypeScript: Styling](/docs/24-tsx-styling.md)
- - [25 - React + TypeScript: Fragments, Portals and Refs](/docs/25-tsx-fragments-portals-and-refs.md)
- - [26 - React + TypeScript: Hooks](/docs/26-tsx-hooks.md)
+ - [React: Composition vs Inheritance in React](/docs/27-tsx-composition-vs-inheritance.md)
+ - [React: Thinking in React - Design Guide](/docs/28-tsx-thinking-in-react.md)
+
+### Part 6B: React + TypeScript (Misc)
+
+ - [React + TypeScript: Styling](/docs/29-tsx-styling.md)
+ - [React + TypeScript: Fragments, Portals and Refs](/docs/30-tsx-fragments-portals-and-refs.md)
+ - [React + TypeScript: API Calls and Handling Side Effects](/docs/31-tsx-api-calls-and-handling-side-effects.md)
+ - [React + TypeScript: Routing](/docs/32-tsx-routing.md)
+
+#### State Management
+
+ - [React + TypeScript: The Context API](/docs/33-tsx-context-api.md)
+ - [React + TypeScript: Redux](/docs/34-ts-redux.md)
+
+### Part 6C: React + TypeScript (Advanced Guide)
+
+ - [React: Accessibility]()
+ - [React: Code-Splitting]()
+ - [React: Error Boundaries]()
+ - [React: Forwarding Refs]()
+ - [React: Higher-Order Components]()
+ - [React: Profiler]()
+ - [React: Render Props]()
+ - [React + TypeScript: Optimizing Techniques](/docs/36-tsx-optimizing.md)
+
+
+### Part 7: Integrating TypeScript with JS Libraries
+
+ - [TypeScript + JS Libraries](/docs/17-ts-and-js-libraries.md)
+ - [Express + TypeScript](/docs/18-ts-and-express.md)
 
 ### Appendix A: TypeScript Setup
 
@@ -109,10 +138,30 @@ TypeScript code is transformed into JavaScript code via the TypeScript compiler 
 
  - [TypeScript and Webpack](/docs/99-ts-webpack.md)
 
+### Appendix X: TypeScript and Testing
 
-### Resources
+ - [React + TypeScript: Testing](/docs/40-tsx-testing.md)
+
+### Appendix X: TypeScript and Next
+
+ - [TypeScript and Next.js](/docs/35-tsx-next.md)
+
+### Appendix X: Other topics
+
+ - Vanilla JS
+ - React Native
+
+### Main Resources
 
  - [TypeScript: The Complete Developer's Guide](https://www.udemy.com/course/typescript-the-complete-developers-guide)
  - [Understanding TypeScript](https://www.udemy.com/course/understanding-typescript)
 
  - [https://www.typescriptlang.org/](https://www.typescriptlang.org/)
+
+### Disclaimer
+
+This guide has been compiled by taking material (in many cases verbatum) from courses, blogs, tutorials and offical docs.
+
+It is meant to be a personal reference guide but I have made it public in case someone else finds it useful.
+
+If you find something you have written in this guide and would like credit, feel free to make a pull request. Contributors has not been setup for this repo because that was not my intention.

@@ -5,6 +5,18 @@ Quick Links: [ReadMe](../README.md) | [Table of Contents](00-index.md)
 
 ## TypeScript + React: Components
 
+Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the screen.
+
+Components let you split the UI into independent, reusable pieces, and think about each piece in isolation.
+
+>**Note: Always start component names with a capital letter.**
+React treats components starting with lowercase letters as DOM tags. For example, <div /> represents an HTML div tag, but <Welcome /> represents a component and requires Welcome to be in scope.
+
+**Three tenets of Components**
+
+|![](./screenshots/25-three-tenets-of-components.png)
+|--
+
 There are two basic types of components: Functional and Class-based.
 
 #### Functional Components

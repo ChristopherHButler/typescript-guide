@@ -5,7 +5,9 @@ Quick Links: [ReadMe](../README.md) | [Table of Contents](00-index.md)
 
 ## TypeScript + Redux
 
-
+ - [ ] Redux
+   - [ ] Redux Hooks (useDispatch, useSelector, useReducer)
+ - [ ] Redux Toolkit
 
 
 ### Action Creators
