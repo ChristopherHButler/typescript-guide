@@ -5,6 +5,18 @@ Quick Links: [ReadMe](../README.md) | [Table of Contents](00-index.md)
 
 ## TypeScript + React: Props
 
+When React sees an element representing a user-defined component, it passes JSX attributes and children to this component as a single object. We call this object “props”.
+
+### Props are Read-Only
+
+#### Pure Functions
+Functions that do not attempt to change their inputs, and always return the same result for the same inputs are called _pure_ functions.
+
+>React is pretty flexible but it has a single strict rule:
+**All React components must act like pure functions with respect to their props.**
+
+<br />
+
 ### Basic props
 
 #### Functional Components
@@ -57,7 +69,7 @@ class App extends Component<AppProps> {
 
 
 
-### children props
+### `children` props
 
 The React children prop allows components to be composed together and is a key concept for building reusable components. Visually, we can think of it as a hole in the component where the consumer controls what is rendered. This section covers different approaches to strongly-typing this powerful and flexible prop with TypeScript.
 
@@ -158,9 +170,6 @@ type Props = {
 ```
 
 React.ReactChild | React.ReactChild[] gives the breadth of values we need, but is a little verbose.
-
-
-
 
 
 ### References:
