@@ -27,7 +27,7 @@ Go the the [README.](../README.md)
 
  - [10 - Design Patterns with TypeScript](10-design-patterns.md)
 
-### Part 4: Misc | Intermediate (?)
+### Part 4: Intermediate | Misc
 
  - [11 - Narrowing (Type Guards)](11-type-guards.md)
  - [12 - Enums](12-enums.md)

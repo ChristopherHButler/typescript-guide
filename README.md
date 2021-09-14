@@ -148,20 +148,34 @@ TypeScript code is transformed into JavaScript code via the TypeScript compiler 
 
 ### Appendix X: Other topics
 
+ - Material UI (for Porterbuddy)
+
  - Vanilla JS
  - React Native
 
-### Main Resources
+ - Agile
+ - Design Thinking
+ - UX Design
+ - FORM
+
+## Main Resources
 
  - [TypeScript: The Complete Developer's Guide](https://www.udemy.com/course/typescript-the-complete-developers-guide)
  - [Understanding TypeScript](https://www.udemy.com/course/understanding-typescript)
 
  - [https://www.typescriptlang.org/](https://www.typescriptlang.org/)
 
-### Disclaimer
+ - [react-redux-typescript-guide](https://github.com/piotrwitek/react-redux-typescript-guide)
+
+## Disclaimer
 
 This guide has been compiled by taking material (in many cases verbatum) from courses, blogs, tutorials and offical docs.
 
 It is meant to be a personal reference guide but I have made it public in case someone else finds it useful.
 
 If you find something you have written in this guide and would like credit, feel free to make a pull request. Contributors has not been setup for this repo because that was not my intention.
+
+## TODO
+
+ - React Hooks with TypeScript.
+ - Everything after that.
