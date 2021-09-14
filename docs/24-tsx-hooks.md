@@ -78,19 +78,22 @@ const intervalRef = useRef<number | null>(null);
 
 #### useReducer
 
-
 #### useContext
-
 
 #### useMemo
 
-
 #### useCallback
-
 
 #### useImperativeHandle
 
 #### useDebugValue
 
-
 ### Custom Hooks
+
+
+### References
+
+ - [Mastering TypeScript for React Hooks](https://javascript.plainenglish.io/mastering-typescript-for-react-hooks-3e9e9e3797d7)
+ - [https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/hooks/](https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/hooks/)
+ - []()
+ - [https://fettblog.eu/typescript-react/hooks/](https://fettblog.eu/typescript-react/hooks/)

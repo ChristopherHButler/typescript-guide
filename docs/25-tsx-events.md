@@ -53,7 +53,7 @@ const Input = () => {
   return (
     <div>
       <label>Enter some text:</label>
-      <input onChange={(e) => setUserInput(e.target.value)} />
+      <input onChange={(e: HTMLInputElement) => setUserInput(e.target.value)} />
     </div>
   );
 
